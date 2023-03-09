@@ -15,16 +15,14 @@ public class Array_replacement {
 	        
 	            arr[i]=in.nextInt();
 	        }
-	        System.out.println("Enter the number to be remove: ");
+	        System.out.println("Enter the number to be remove: "); // declare number to be removed from the array
 	        int e = in.nextInt();
 	    
 	    for(int i = 0; i < arr.length; i++)   {
-	      if(arr[i] == e)   //If element found
-	      {
+	      if(arr[i] == e){   // number is compared       
 	        // shifting elements
         for(int j = i; j < arr.length - 1; j++) {	        
-	            arr[j] = arr[j+1];
-	          
+	            arr[j] = arr[j+1];	          
 	        }
 	        break;
 	      }
