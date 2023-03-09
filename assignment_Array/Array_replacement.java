@@ -28,8 +28,7 @@ public class Array_replacement {
 	      }
 	    }	      
 	       System.out.println("After removing number array is: " );
-	       for(int i = 0; i < arr.length-1; i++)
-	       {
+	       for(int i = 0; i < arr.length-1; i++) {
 	             System.out.print(arr[i]+ " ");
 	       }  
 	    }
