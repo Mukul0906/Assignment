@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Array_replacement {
 
 	    public static void main(String[] args)    {
+		    // creating scanner class
 	        Scanner in=new Scanner(System.in);
 	        System.out.println("Enter the number of elements :");
 	        int length=in.nextInt();    //Array Size Initialization	        
@@ -23,7 +24,7 @@ public class Array_replacement {
 	        // shifting elements
         for(int j = i; j < arr.length - 1; j++) {	        
 	            arr[j] = arr[j+1];
-	            arr[j+1]=0;
+	          
 	        }
 	        break;
 	      }
